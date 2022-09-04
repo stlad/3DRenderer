@@ -20,10 +20,10 @@ namespace _3DRenderer
         {
             InitializeComponent();
             RayTracer.Canvas = MainCanvas;
-            
-            //RayTracer.PutPixel(new Vector(0,0), Color.FromArgb(255,255,0,0));
-            var pt = new Vector(0, 0);
-            RayTracer.PutPixel(pt, Color.FromArgb(255, 255, 0,0 ));
+            RayTracer.Render();
+            //RayTracer.PutPixel(new Vector(0,0), Color.FromArgb(255,255,255,255));
+            //RayTracer.PutPixel(new Vector(-100, -100), Color.FromArgb(255, 255, 0, 0));
+
         }
     }
 }
